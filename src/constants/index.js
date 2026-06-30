@@ -1,0 +1,1 @@
+export const navLinks = ["Store", "Mac", "iPad", "iPhone", "Airpods", "TV & Home"]
