@@ -6,13 +6,12 @@ const Navbar = () => {
     <header>
       <nav>
         <img src="/logo.svg" alt="Apple logo" />
-
         <ul>
           {navLinks.map((item) => (
               <li key={item}>
-                <a href={item}>{item}</a>{" "}
+                <a href={item}>{item}</a>
               </li>
-            ),
+            )
           )}
         </ul>
         <div className="flex-center gap-3">
