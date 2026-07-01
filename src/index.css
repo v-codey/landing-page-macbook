@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-@import "tailwindcss";
-
 @font-face {
   font-family: "Regular";
   src: url("/fonts/regular.otf");
@@ -115,7 +113,7 @@ body {
   }
 
   #hero {
-    @apply h-fit lg:h-[80vh] col-center mt-40 lg:mt-20 2xl:mt-[7vh];
+    @apply  h-fit lg:h-[80vh] col-center mt-40 lg:mt-20 2xl:mt-[2vh]   2xl:h-screen;
 
     div {
       @apply relative z-10 col-center lg:translate-y-16;
@@ -134,7 +132,7 @@ body {
     }
 
     button {
-      @apply relative z-10 bg-primary text-white py-2 px-6 mt-10 lg:mt-0 mb-5 rounded-full font-semibold text-lg cursor-pointer hover:bg-white hover:text-black transition-all duration-300 ease-in-out;
+      @apply relative z-10 !bg-primary text-white py-2 px-6 mt-10 lg:mt-0 mb-5 rounded-full font-semibold text-lg cursor-pointer hover:bg-white hover:text-black transition-all duration-300 ease-in-out;
     }
 
     p {
@@ -143,7 +141,7 @@ body {
   }
 
   #product-viewer {
-    @apply container relative min-h-[93vh] mx-auto px-5 2xl:px-0 mt-40;
+    @apply  container relative min-h-[93vh] mx-auto px-5 2xl:px-20 mt-40;
 
     h2 {
       @apply text-white font-semibold text-3xl lg:text-6xl;
